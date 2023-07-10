@@ -3,33 +3,32 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .text_primary {
-    color: #FD6E0A;
+  color: #fd6e0a;
 }
 
 .btn_primary {
-    background-color: #FD6E0A;
-    color: #fff;
-    font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-border-radius: 5px;
-padding: 18px 35px;
+  background-color: #fd6e0a;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px;
+  padding: 18px 35px;
 }
 
-main {
-    max-width: 1140px;
-    margin: 0 auto;
-}
 /* Nav related design */
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 200px;
 }
 
 .nav_title {
@@ -39,20 +38,100 @@ nav {
 }
 
 nav > ul {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 nav li {
-    list-style: none;
-    margin-right: 50px;
-    color: #474747;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: normal;
+  list-style: none;
+  margin-right: 50px;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
+header {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+/* Banner related design */
+
+.banner_container {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner_left_content {
+  max-width: 585px;
+}
+
+.banner_right_content img {
+  width: 500px;
+}
+
+.banner_gretting {
+  color: #474747;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.banner_title {
+  margin-top: 5px;
+  color: #181818;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner_para {
+  color: #757575;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Main section design */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about section design */
+
+.about {
+  margin: 130px 0;
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+}
+
+.about_title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.about_para {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+/* skill section design */
