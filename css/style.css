@@ -133,5 +133,112 @@ main {
   font-weight: 400;
 }
 
+.about_contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about_conact_box p {
+  margin: 0px;
+}
+
+.about_conact_box h4 {
+  margin-top: 5px;
+  color: #474747;
+}
 
 /* skill section design */
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0 130px 0;
+}
+
+.skillset {
+  width: 220px;
+  border: 1px solid chocolate;
+  padding: 30px 0 0 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #fff8f3;
+}
+
+.skillset h3 {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+}
+.skillset p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 30px 30px 0;
+}
+
+.skillset .icon {
+  width: 44px;
+  height: 44px;
+}
+
+/* Resume Section design  */
+
+.resume_head {
+  margin: 100px 0;
+}
+
+.education_experience_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.education_experience_container h1 {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.my_education {
+  width: 500px;
+}
+
+.my_experience {
+  width: 500px;
+}
+
+.education h2 {
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.education h4 {
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.education p {
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+ .experience h2 {
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+ .experience h4 {
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+ .experience p {
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+}
