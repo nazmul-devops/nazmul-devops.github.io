@@ -141,7 +141,8 @@ header {
 
 /* Main section design */
 
-main {
+main,
+.footer_container {
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -280,8 +281,33 @@ main {
 }
 
 .download_btn {
-    width: 250px;
-    height: 65px;
-    margin: auto ;
-    margin-bottom: 100px;
+  width: 250px;
+  height: 65px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+footer {
+  height: 780px;
+  background-color: #fff8f3;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.footer_right {
+  padding-top: 200px;
+}
+
+.footer_right form input[type="text"],
+input[type="email"],
+textarea {
+  width: 461px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
 }
