@@ -329,6 +329,8 @@ textarea {
   display: none;
 }
 
+
+
 @media screen and (max-width: 576px) {
   .about {
     padding: 50px 30px;
@@ -366,4 +368,66 @@ textarea {
   .footer_right, .footer_left {
     padding-top: 50px;
   }
+}
+
+
+
+/* iPhone 13  */
+
+@media screen and (max-width: 370px) {
+  .skills,
+  .education_experience_container,
+  .footer_container,
+  .about_contact, nav, .banner_container {
+    flex-direction: column;
+  }
+
+  nav {
+    padding: 0 20px;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    margin-right: 30px;
+  }
+
+
+  .banner_container {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  header {
+    background-image: none;
+  }
+
+  .banner_left_content {
+    width: 100%;
+  }
+
+  .banner_right_content {
+    width: 80%;
+  }
+
+  .btn_primary {
+    margin-bottom: 20px;
+  }
+
+  .banner_right_content img {
+    width: 100%;
+  }
+  .my_education, .my_experience, .footer_container {
+    width: 80%;
+    margin: auto;
+  }
+
+  footer {
+    padding-bottom: 50px;
+  }
+
+  .footer_right form input[type="text"],
+input[type="email"],
+textarea {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+  
 }
