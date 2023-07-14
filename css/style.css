@@ -93,7 +93,8 @@ nav a {
 
 header {
   background: #fff8f3;
-  background-image: url("../images/header_bg.png"),url("../images/developer.png") ;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, bottom left;
   align-items: center;
@@ -110,10 +111,10 @@ header {
 }
 
 .btn_contact {
-  background-color: #FFF8F3;
-color: #FD6E0A;
-border: 2px solid #FD6E0A;
-margin-left: 10px;
+  background-color: #fff8f3;
+  color: #fd6e0a;
+  border: 2px solid #fd6e0a;
+  margin-left: 10px;
 }
 
 .banner_left_content {
@@ -320,4 +321,49 @@ textarea {
   border-radius: 5px;
   margin-bottom: 20px;
   padding: 20px;
+}
+
+/* Responsive Design  */
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .about {
+    padding: 50px 30px;
+  }
+  .skill_head {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .skills,
+  .education_experience_container,
+  .footer_container,
+  .about_contact, nav, .banner_container {
+    flex-direction: column;
+  }
+
+  .banner_container {
+    flex-direction: column-reverse;
+    padding-top: 150px;
+  }
+  header {
+    background-image: none;
+    padding-bottom: 100px;
+  }
+  .banner_right_content img {
+    width: 100%;
+    margin: auto;
+  }
+  .about_conact_box {
+    margin: 20px;
+  }
+  .skillset {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .footer_right, .footer_left {
+    padding-top: 50px;
+  }
 }
