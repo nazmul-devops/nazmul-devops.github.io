@@ -6,4 +6,4 @@
 4. visit [www.figma.com/](https://www.figma.com/)
 5. create account
 6. drag and drop the `developer-portfolio.fig`
-7. Enjoy !!! 
+7. Convert it to html & enjoy !!! 
