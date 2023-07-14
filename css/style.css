@@ -374,7 +374,8 @@ textarea {
 
 /* iPhone 13  */
 
-@media screen and (max-width: 390px) {
+@media only screen and (min-width: 390px) and (max-width: 767px) {
+  
   .skills,
   .education_experience_container,
   .footer_container,
@@ -429,5 +430,18 @@ textarea {
   margin: auto;
   margin-bottom: 20px;
 }
+
+.skill_head {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skillset {
+  width: 80%;
+  margin: 20px auto;
+}
   
+.footer_right, .footer_left {
+  padding-top: 50px;
+}
 }
