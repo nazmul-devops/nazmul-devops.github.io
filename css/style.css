@@ -374,7 +374,7 @@ textarea {
 
 /* iPhone 13  */
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 390px) {
   .skills,
   .education_experience_container,
   .footer_container,
